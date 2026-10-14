@@ -379,4 +379,3 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-d torn down after each test. This ensures total test isolation, sub-second test execution, zero risk of data contamination, and enables tests to pass even in CI/CD environments without an external database instance.
