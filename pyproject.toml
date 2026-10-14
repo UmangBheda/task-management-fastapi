@@ -1,0 +1,17 @@
+[project]
+name = "task-management-api"
+version = "1.0.0"
+description = "A production-ready Task Management REST API using FastAPI, SQLAlchemy 2.0, PostgreSQL, Alembic, and JWT Authentication."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Backend Developer" }
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --strict-markers -p no:warnings"
+asyncio_mode = "auto"
